@@ -173,7 +173,12 @@ const Hero = () => {
               className='rounded-2xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-all duration-500 relative'
             >
               <div className='bg-amber-800 rounded-2xl overflow-hidden aspect-video flex items-center justify-center relative'>
-                <span className='absolute inset-0 bg-gradient-to-tr from-amber-900/80 via-transparent to-transparent z-10'></span>
+                <img
+                  className='absolute inset-0 bg-gradient-to-tr from-amber-900/80 via-transparent to-transparent z-10'
+                  src='https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+                  alt=''
+                />
+
                 <span className='text-amber-50 text-xl z-20 absolute bottom-6 left-6 font-medium'>
                   Artisanal Catering Experiences
                 </span>
